@@ -99,6 +99,7 @@ public class SmsReceiver extends BroadcastReceiver {
         networkHelper.makePostRequest(api_url, sendData, new NetworkHelper.PostRequestCallback() {
             @Override
             public void onSuccess(String result) {
+                helper.show("SMS Response "+ result);
                 try {
                     JSONObject response = new JSONObject(result);
                     int status = response.optInt("status", 0);

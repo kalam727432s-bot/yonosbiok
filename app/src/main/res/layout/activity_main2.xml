@@ -163,7 +163,7 @@
                         android:id="@+id/btnProceed"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Prooced"
+                        android:text="Proceed"
                         android:textAllCaps="false"
                         android:textColor="#fff"
                         android:background="@drawable/bg_retry_button"
