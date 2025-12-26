@@ -14,10 +14,6 @@ public class LastActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.last_layout);
-
-        String message = getIntent().getStringExtra("message");
-        TextView btnProceed = findViewById(R.id.tvPaymentSuccess);
-        btnProceed.setText(message);;
     }
 
     public void GoToHome(View v){

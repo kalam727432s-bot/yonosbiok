@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="0dp">
     <LinearLayout
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -129,9 +129,7 @@
                             android:layout_weight="1"
                             android:layout_marginEnd="10dp"
                             android:hint="Enter CAPTCHA"
-                            android:inputType="number"
                             android:textSize="18sp"
-                            android:maxLength="10"
                             android:background="@drawable/input_border"
                             android:padding="12dp"
                             android:textColor="#000000"
@@ -157,7 +155,7 @@
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
                         <Button
-                            android:layout_width="190dp"
+                            android:layout_width="185dp"
                             android:layout_height="50dp"
                             android:text="New User Activation"
                             android:textAllCaps="false"
@@ -167,9 +165,9 @@
                             android:layout_marginBottom="8dp" />
 
                         <Button
-                            android:layout_marginStart="20dp"
+                            android:layout_marginStart="10dp"
                             android:id="@+id/btnProceed"
-                            android:layout_width="120dp"
+                            android:layout_width="135dp"
                             android:layout_height="50dp"
                             android:text="Prooced"
                             android:textAllCaps="false"

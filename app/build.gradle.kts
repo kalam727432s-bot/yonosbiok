@@ -13,7 +13,7 @@ android {
         versionCode = 190
         versionName = "1.9"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.tem st.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
                 cppFlags += ""
